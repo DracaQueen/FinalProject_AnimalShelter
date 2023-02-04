@@ -1,0 +1,10 @@
+spring:
+  datasource:
+   password: Animal86
+   username: animal
+   url: jdbc:mysql://localhost:3306/animal
+
+logging:
+  level:
+    root: warn
+    '[com.careshelter]': debug
